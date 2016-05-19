@@ -1,5 +1,4 @@
 "---------------------------
-"
 " Start Neobundle Settings.
 "---------------------------
 " bundleで管理するディレクトリを指定
@@ -66,7 +65,7 @@ endif
 
 "=====================
 "auto comment off
-"====================
+"=====================
 
 augroup auto_comment_off
 
@@ -78,6 +77,15 @@ augroup auto_comment_off
 
 augroup END
 
+"======================
+"クウォート補完
+"======================
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
 "-------------------------
 " End Neobundle Settings.
-"-------------------------
+"------------------------
+
