@@ -18,6 +18,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'ConradIrwin/vim-bracketed-paste'
+NeoBundle 'tomtom/tcomment_vim'
 call neobundle#end()
 
 " Required:
@@ -85,6 +86,9 @@ inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
+
+
+
 "-------------------------
 " End Neobundle Settings.
 "------------------------
