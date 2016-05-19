@@ -87,6 +87,13 @@ inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
 
+"
+" vim起動と同時にnerdtree起動
+"
+if !argc()
+    autocmd vimenter * NERDTree|normal gg3j
+endif
+
 
 
 "-------------------------
