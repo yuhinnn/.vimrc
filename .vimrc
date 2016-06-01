@@ -19,6 +19,9 @@ NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'ConradIrwin/vim-bracketed-paste'
 NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'kana/vim-smartinput'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'Shougo/neocomplete.vim' 
 call neobundle#end()
 
 " Required:
@@ -93,6 +96,20 @@ inoremap ' ''<LEFT>
 if !argc()
     autocmd vimenter * NERDTree|normal gg3j
 endif
+
+
+"
+"インデント
+"
+set tabstop=2
+set autoindent
+set expandtab
+set shiftwidth=2
+
+"
+"インデントショートカット
+"
+map <Space>= gg=<S-g><C-o><C-o>zz
 
 
 "-------------------------
