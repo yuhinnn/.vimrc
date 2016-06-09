@@ -22,6 +22,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Shougo/neocomplete.vim' 
+NeoBundle 'rking/ag.vim'
 call neobundle#end()
 
 " Required:
