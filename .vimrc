@@ -112,6 +112,12 @@ set shiftwidth=2
 "
 map <Space>= gg=<S-g><C-o><C-o>zz
 
+"
+"行番号を表示
+"
+
+set number
+
 
 "-------------------------
 " End Neobundle Settings.
